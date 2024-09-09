@@ -31,6 +31,7 @@ jobs:
 
       - uses: actions/checkout@v3
         with:
+          ref: lab00-blink
           path: ${{github.workspace}}/source
 
       - name: Create Build Environment
