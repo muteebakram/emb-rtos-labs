@@ -1,4 +1,4 @@
-name: CMake
+name: lab01-makefiles
 on: [push, pull_request]
 
 jobs:
@@ -20,12 +20,14 @@ jobs:
       - uses: actions/checkout@v3
         with:
           ref: lab01-makefiles
-          path: ${{github.workspace}}/lab01-makefiles
+          path: ${{github.workspace}}
+          working-directory: ${{github.workspace}}/lab01-makefiles
 
       - name: Say hello
         shell: bash
         working-directory: ${{github.workspace}}/lab01-makefiles
         run: |
+            cd ${{github.workspace}}/lab01-makefiles
             ls
             test ! -f hello.txt
             test ! -f main.o
@@ -38,6 +40,7 @@ jobs:
         shell: bash
         working-directory: ${{github.workspace}}/lab01-makefiles
         run: |
+            cd ${{github.workspace}}/lab01-makefiles
             test ! -f firmware.elf
             PICO_TOOLCHAIN_PATH=${{ steps.arm-none-eabi-gcc-action.outputs.path }}/.. make
             test -f firmware.elf
@@ -46,9 +49,11 @@ jobs:
         shell: bash
         working-directory: ${{github.workspace}}/lab01-makefiles
         run: |
+            cd ${{github.workspace}}/lab01-makefiles
             make clean
             test ! -f hello.txt
             test ! -f main.o
             test ! -f main.i
             test ! -f main.s
             test ! -f firmware.elf
+
