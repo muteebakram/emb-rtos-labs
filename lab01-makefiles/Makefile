@@ -10,6 +10,11 @@ OBJS=$(patsubst %.c, %.o, $(SRC))
 
 .PHONY: all clean
 
+all: firmware.elf
+
+clean:
+	rm -rf *.i *.o *.s *.txt *.elf
+
 firmware.elf: $(OBJS)
 	$(LD) -o $@ $^
 
@@ -27,9 +32,3 @@ main.i: main.c
 
 hello.txt:
 	echo "hello world" > hello.txt
-
-all: firmware.elf
-
-clean:
-#	rm -rf main.i hello.txt
-	rm -rf *.i *.o *.s *.txt *.elf
