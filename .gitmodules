@@ -2,13 +2,12 @@
     path = lab02-testing/rtos
     url = https://github.com/uofu-emb/2024-lab2-jonathan-muteeb.git
     branch = main
-    commit = 4f91a984fa710dc1d9512a075f8cf4cd2ecd4a7c
+    # commit = 4f91a984fa710dc1d9512a075f8cf4cd2ecd4a7c
 
 [submodule "labs/lab03-threads"]
     path = lab03-threads
     url = https://github.com/uofu-emb/2024-lab03-Tharnath-Muteeb.git
-    branch = main
-    commit = 7828885a35b286cb4da9c90d434d5fc6950dffc7
+    branch = lab03-threads
 
 [submodule "labs/lab04-ipc"]
     path = lab04-ipc
