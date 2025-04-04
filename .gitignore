@@ -1,3 +1,10 @@
-build/
-.vscode/
+*/libs/
+*/*/libs/
 
+build/
+*/build/
+*/*/build/
+
+.vscode/
+*/.vscode/
+*/*/.vscode/
