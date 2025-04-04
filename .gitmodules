@@ -5,6 +5,7 @@
 [submodule "labs/lab03-threads"]
     path = lab03-threads
     url = https://github.com/uofu-emb/2024-lab03-Tharnath-Muteeb.git
+    branch = main
 
 [submodule "labs/lab04-ipc"]
     path = lab04-ipc
