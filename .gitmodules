@@ -18,11 +18,6 @@
     path = lab06-scheduling
     url = https://github.com/uofu-emb/2024-Lab6-Muteeb-Stephen.git
 
-[submodule "labs/lab08-can"]
-    path = lab08-can
-    url = https://github.com/muteebakram/emb-rtos-labs.git
-    branch = master
-
 [submodule "labs/lab09-verification"]
     path = lab09-verification
     url = https://github.com/muteebakram/emb-rtos-labs.git
