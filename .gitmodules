@@ -1,0 +1,37 @@
+[submodule "labs/lab02-testing"]
+    path = lab02-testing/rtos
+    url = https://github.com/uofu-emb/2024-lab2-jonathan-muteeb.git
+
+[submodule "labs/lab03-threads"]
+    path = lab03-threads
+    url = https://github.com/uofu-emb/2024-lab03-Tharnath-Muteeb.git
+
+[submodule "labs/lab04-ipc"]
+    path = lab04-ipc
+    url = https://github.com/uofu-emb/2024_Lab4_Hank_Muteeb.git
+
+[submodule "labs/lab05-realtime"]
+    path = lab05-realtime
+    url = https://github.com/uofu-emb/Lab_5_Muteeb_Tyler.git
+
+[submodule "labs/lab06-scheduling"]
+    path = lab06-scheduling
+    url = https://github.com/uofu-emb/2024-Lab6-Muteeb-Stephen.git
+
+[submodule "labs/lab08-can"]
+    path = lab08-can
+    url = https://github.com/muteebakram/emb-rtos-labs.git
+    branch = master
+
+[submodule "labs/lab09-verification"]
+    path = lab09-verification
+    url = https://github.com/muteebakram/emb-rtos-labs.git
+    branch = master
+
+[submodule "labs/lab10-power"]
+    path = lab10-power
+    url = https://github.com/uofu-emb/2024_Lab_10_Kirra_Muteeb.git
+
+[submodule "labs/lab11-bluetooth"]
+    path = lab11-bluetooth
+    url = https://github.com/uofu-emb/lab11-jared-muteeb.git
